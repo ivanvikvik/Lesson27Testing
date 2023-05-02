@@ -10,6 +10,10 @@ c2.increment()
 c3.decrement()
 # c1.reset()
 
-print(c1)
-print(c2)
-print(c3)
+c1.count = 10
+n = c1.count
+del c1.count
+
+print(c1.count)
+print(c2.count)
+print(c3.count)
